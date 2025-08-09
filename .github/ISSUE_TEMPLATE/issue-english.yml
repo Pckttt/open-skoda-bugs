@@ -1,4 +1,4 @@
-name: Issue Report
+name: Issue Report (English)
 description: Something is not working as expected.
 labels: ["triage"]
 assignees:
@@ -95,12 +95,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to make Škoda vehicles better!
   - type: input
     id: contact
     attributes:
       label: Your Contact Details
       description: Optional. How can we reach you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: "ex. email@example.com"
     validations:
       required: false
