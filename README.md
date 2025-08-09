@@ -7,8 +7,8 @@
 ## What do I do here?
 You can share your experiences with Škoda vehicles and help make them better.
 Škoda developers can only fix issues they know about.
-
 Simply describe your issue and provide the necessary details — all by following the provided template.
+
 File a [new issue](https://github.com/jansequens/open-skoda-bugs/issues/new/choose) or [check out the existing ones](https://github.com/jansequens/open-skoda-bugs/issues).
 
 > Not an English speaker? Problém můžete [nahlásit i v češtině](https://github.com/jansequens/open-skoda-bugs/issues/new/choose)
@@ -16,6 +16,7 @@ File a [new issue](https://github.com/jansequens/open-skoda-bugs/issues/new/choo
 
 You don’t need to be a developer or have technical knowledge to contribute.
 There's no source code or pull requests here.
+You just need a (free) GitHub account.
 
 ## Why?
 You enjoy Škoda vehicles but notice the software isn’t always up to par.
