@@ -2,7 +2,7 @@
 
 > A community-driven tracker for bugs, issues, and enhancements in Škoda vehicles. Share your findings so the next update fixes what really matters.
 
-<div style="text-align: center;"><img src="images/open-skoda-bugs.png" alt="Open Škoda Bugs" height="150"></div>
+<p align="center"><img src="images/open-skoda-bugs.png" alt="Open Škoda Bugs" height="150"></p>
 
 ## What do I do here?
 You can share your experiences with Škoda vehicles and help make them better.
