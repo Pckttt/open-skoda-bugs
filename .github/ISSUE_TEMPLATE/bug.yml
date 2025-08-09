@@ -1,0 +1,107 @@
+name: Bug Report
+description: Something is not working as expected.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - jansequens
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing a new bug, please do a quick search to see if the bug has already been reported.
+  - type: dropdown
+    id: vehicle_model
+    attributes:
+      label: Vehicle Model
+      description: Select your vehicle model.
+      multiple: true
+      options:
+        - Elroq
+        - Enyaq
+        - Fabia
+        - Kamiq
+        - Karoq
+        - Kodiaq
+        - Octavia
+        - Scala
+        - Superb
+        - Other model
+    validations:
+      required: true
+  - type: input
+    id: vehicle_year
+    attributes:
+      label: Year of Manufacture
+      description: Enter the year your vehicle was manufactured.
+      placeholder: "e.g. 2023"
+    validations:
+      required: true
+  - type: dropdown
+    id: vehicle_powertrain
+    attributes:
+      label: Powertrain Type
+      description: Select your vehicle’s powertrain.
+      options:
+        - Combustion engine (petrol or diesel only) (ICE)
+        - Mild hybrid (MHEV)
+        - Plug-in hybrid (PHEV)
+        - Full hybrid (HEV)
+        - Some kind of hybrid — I'm not sure
+        - Fully electric (BEV)
+    validations:
+      required: true
+  - type: input
+    id: vehicle_model_detailed
+    attributes:
+      label: Vehicle Model
+      description: If your model isn’t listed or you want to add details, enter them here.
+      placeholder: "e.g. Octavia Combi RS"
+    validations:
+      required: false
+  - type: textarea
+    id: system_version
+    attributes:
+      label: System Version
+      description: Version of the affected system/software (found in infotainment system info).
+      placeholder: "e.g. Hardware: H10, Software: 2630"
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Affected System
+      description: Select the primary system affected (best guess).
+      options:
+        - Driving Assistance (ACC, Lane Assist, etc.)
+        - Connectivity (phone, CarPlay, Android Auto, Bluetooth)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: behavior-current
+    attributes:
+      label: Issue Description (Current Behavior)
+      description: Describe what’s happening now, with steps to reproduce. Drag and drop images to attach them.
+      placeholder: "e.g. The ACC does not maintain speed when going uphill."
+    validations:
+      required: true
+  - type: textarea
+    id: behavior-expected
+    attributes:
+      label: Expected Behavior
+      description: Describe what should happen instead.
+      placeholder: "e.g. The ACC should maintain speed regardless of the incline."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Your Contact Details
+      description: Optional. How can we reach you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
