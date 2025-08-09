@@ -11,7 +11,7 @@ File a [new issue](https://github.com/jansequens/open-skoda-bugs/issues/new/choo
 
 There's no source code or pull requests here.
 
-> 🇨🇿 Not an Eglish speaker? Můžete [nahlásit problém v češtině](https://github.com/jansequens/open-skoda-bugs/issues/new/choose).
+> Not an English speaker? Můžete [nahlásit problém v češtině](https://github.com/jansequens/open-skoda-bugs/issues/new/choose).
 
 ## Why?
 You value Škoda vehicles but notice the software isn’t always up to par, which can pull the overall experience down.
