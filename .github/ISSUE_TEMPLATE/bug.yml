@@ -1,14 +1,13 @@
-name: Bug Report
+name: Issue Report
 description: Something is not working as expected.
-title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["triage"]
 assignees:
   - jansequens
 body:
   - type: markdown
     attributes:
       value: |
-        Before filing a new bug, please do a quick search to see if the bug has already been reported.
+        Before filing a new bug, please take a moment to do a quick search to see if the bug has already been reported.
   - type: dropdown
     id: vehicle_model
     attributes:
@@ -58,11 +57,11 @@ body:
       placeholder: "e.g. Octavia Combi RS"
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: system_version
     attributes:
       label: System Version
-      description: Version of the affected system/software (found in infotainment system info).
+      description: Version of the affected system/software (found in infotainment system info). Include as much detail as possible.
       placeholder: "e.g. Hardware: H10, Software: 2630"
     validations:
       required: false
@@ -81,7 +80,7 @@ body:
     id: behavior-current
     attributes:
       label: Issue Description (Current Behavior)
-      description: Describe what’s happening now, with steps to reproduce. Drag and drop images to attach them.
+      description: Describe what’s happening now, with steps to reproduce.
       placeholder: "e.g. The ACC does not maintain speed when going uphill."
     validations:
       required: true
