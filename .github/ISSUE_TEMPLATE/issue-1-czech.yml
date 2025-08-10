@@ -98,6 +98,8 @@ body:
       options:
         - Asistenční systémy (ACC, Lane Assist, atd.)
         - Konektivita (telefon, CarPlay, Android Auto, Bluetooth)
+        - Topení a klimatizace
+        - Head-up displej (HUD)
         - Jiný
     validations:
       required: true

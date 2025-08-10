@@ -98,6 +98,8 @@ body:
       options:
         - Driving Assistance (ACC, Lane Assist, etc.)
         - Connectivity (phone, CarPlay, Android Auto, Bluetooth)
+        - Climate control (AC, heating, ventilation)
+        - Head-up Display (HUD)
         - Other
     validations:
       required: true
