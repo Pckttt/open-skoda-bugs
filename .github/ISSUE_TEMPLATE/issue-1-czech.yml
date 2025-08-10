@@ -103,21 +103,6 @@ body:
         - Jiný
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Not a native speaker? These terms might help:
-        - *instrument cluster* – display or gauges behind the steering wheel  
-        - *center console* – area between the front seats with controls and storage  
-        - *adaptive cruise control (ACC)* – keeps a set distance from the car ahead  
-        - *lane keeping assist* – helps keep the car in its lane (aka Lane Assist)  
-        - *blind spot monitor* – warns of cars in your blind spots 
-        - *forward collision warning (FCW)* – alerts if a crash is likely (aka Front Assist)
-        - *automatic emergency braking (AEB)* – brakes automatically to avoid or reduce a crash (part of Front Assist)
-        - *steering wheel controls* – buttons on the steering wheel for audio, menus, etc.  
-        - *stalks* – levers on either side of the steering wheel for signals, lights, wipers.  
-        - *gear selector* – lever or knob to choose drive, reverse, park, etc.  
-        - *parking brake* – keeps the car from rolling when parked.
   - type: textarea
     id: behavior-current
     attributes:
