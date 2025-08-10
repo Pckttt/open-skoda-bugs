@@ -70,7 +70,7 @@ body:
         - Navigation 13" (aka Navi 13"; for Kodiaq, Superb, Octavia; has smart dials)
         - Swing 6.5" (for Fabia)
         - Other
-        - None
+        - No infotainment system
         - I'm not sure
     validations:
       required: true
