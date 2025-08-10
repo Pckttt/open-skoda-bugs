@@ -12,14 +12,16 @@ Simply describe your issue and provide the necessary details — all by followin
 
 File a [new issue](https://github.com/jansequens/open-skoda-bugs/issues/new/choose) or [check out the existing ones](https://github.com/jansequens/open-skoda-bugs/issues) and comment.
 
-> Not an English speaker? Problém můžete [nahlásit i v češtině](https://github.com/jansequens/open-skoda-bugs/issues/new/choose)
-> pomocí jednoduchého formuláře.
+> [!TIP]
+> Not an English speaker?
+> Problém můžete [nahlásit i v češtině](https://github.com/jansequens/open-skoda-bugs/issues/new/choose) pomocí jednoduchého formuláře.
 
 You don’t need to be a developer or have technical knowledge to contribute.
 There's no source code or pull requests here.
 You just need a (free) GitHub account.
 
-GitHub works great on mobile devices, so you can report issues right from your car.
+> [!TIP]
+> GitHub works great on mobile devices, so you can report issues right from your car.
 
 ## Why bother?
 
