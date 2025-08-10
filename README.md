@@ -32,7 +32,7 @@ And it feels good to contribute.
 ## How is this repo affiliated with Škoda?
 
 This repository is not affiliated with Škoda Auto or any of its subsidiaries.
-It is an independent community project founded by a Prague-based software developer and a proud 2025 Kodiaq RS owner.
+It is an independent community project founded by a Prague-based software engineer and a proud 2025 Kodiaq RS owner.
 Feel free to reach out to me at jan@sequens.net.
 
 ## Does Škoda know about this?
