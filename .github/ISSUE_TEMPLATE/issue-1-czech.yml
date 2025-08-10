@@ -96,6 +96,7 @@ body:
       label: Oblast problému
       description: Vyberte hlavní systém, kterého se problém týká..
       options:
+        - UI/UX ( jak to vypadá a jak dobře se to používá)
         - Asistenční systémy (ACC, Lane Assist, atd.)
         - Konektivita (telefon, CarPlay, Android Auto, Bluetooth)
         - Topení a klimatizace

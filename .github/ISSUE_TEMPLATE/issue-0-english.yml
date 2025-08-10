@@ -96,6 +96,7 @@ body:
       label: Affected System
       description: Select the primary system affected (best guess).
       options:
+        - UI/UX (how it looks and how easy it is to use)
         - Driving Assistance (ACC, Lane Assist, etc.)
         - Connectivity (phone, CarPlay, Android Auto, Bluetooth)
         - Climate control (AC, heating, ventilation)
