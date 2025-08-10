@@ -116,9 +116,10 @@ body:
         - *forward collision warning (FCW)* – alerts if a crash is likely (aka Front Assist)
         - *automatic emergency braking (AEB)* – brakes automatically to avoid or reduce a crash (part of Front Assist)
         - *steering wheel controls* – buttons on the steering wheel for audio, menus, etc.  
-        - *stalks* – levers on either side of the steering wheel for signals, lights, wipers.  
-        - *gear selector* – lever or knob to choose drive, reverse, park, etc.  
-        - *parking brake* – keeps the car from rolling when parked.
+        - *stalks* – levers on either side of the steering wheel for signals, lights, wipers  
+        - *gear selector* – lever or knob to choose drive, reverse, park, etc
+        - *parking brake* – keeps the car from rolling when parked
+        - *at idle* – when the engine is running but the car isn’t moving
   - type: textarea
     id: behavior-current
     attributes:
