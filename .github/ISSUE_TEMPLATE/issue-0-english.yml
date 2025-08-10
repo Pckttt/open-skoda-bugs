@@ -1,6 +1,6 @@
 name: Issue Report (English)
 description: Something is not working as expected.
-labels: ["triage"]
+labels: ["triage", "lang: en"]
 assignees:
   - jansequens
 body:
@@ -24,7 +24,7 @@ body:
         - Octavia
         - Scala
         - Superb
-        - Other model
+        - Other
     validations:
       required: true
   - type: input
@@ -57,12 +57,37 @@ body:
       placeholder: "e.g. Octavia Combi RS"
     validations:
       required: false
+  - type: dropdown
+    id: vehicle_infotainment
+    attributes:
+      label: Infotainment Model
+      description: Select your vehicle’s infotainment model.
+      options:
+        - 13" (aka Media 13" / Navi 13"; for Elroq, Enyaq; has a touch-slider)
+        - 8" (aka Media 8", for Fabia, Scala, Kamiq, Karoq)
+        - 10" (aka Media 10", for Kodiaq, Superb, Octavia; might have smart dials)
+        - Navigation 9" (aka Navi 9"; for Fabia, Scala, Kamiq, Karoq)
+        - Navigation 13" (aka Navi 13"; for Kodiaq, Superb, Octavia; has smart dials)
+        - Swing 6.5" (for Fabia)
+        - Other
+        - None
+        - I'm not sure
+    validations:
+      required: true
   - type: input
     id: system_version
     attributes:
       label: System Version
       description: Version of the affected system/software (found in infotainment system info). Include as much detail as possible.
       placeholder: "e.g. Hardware: H10, Software: 2630"
+    validations:
+      required: false
+  - type: input
+    id: phone_details
+    attributes:
+      label: Phone Details
+      description: If the issue is related to phone connectivity, provide your phone model and OS version.
+      placeholder: "e.g. iPhone 14 Pro, iOS 17."
     validations:
       required: false
   - type: dropdown
