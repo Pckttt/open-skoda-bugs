@@ -120,6 +120,7 @@ body:
         - *gear selector* – lever or knob to choose drive, reverse, park, etc
         - *parking brake* – keeps the car from rolling when parked
         - *at idle* – when the engine is running but the car isn’t moving
+        - *coast* – move without pressing the gas pedal (usually downhill)
   - type: textarea
     id: behavior-current
     attributes:
